@@ -1,9 +1,8 @@
 import { IonPage, IonContent } from "@ionic/react";
 import React from "react";
-import Landing from "../components/Landing";
 import "../global.css";
 
-export class Home extends React.Component<any, any> {
+export class Register extends React.Component<any, any> {
   // const Home: React.FC = () => {
   constructor(props: any) {
     super(props);
@@ -17,13 +16,11 @@ export class Home extends React.Component<any, any> {
     return (
       <IonPage>
         <IonContent>
-          {/*-------------- Landing Page START --------------*/}
-          <Landing />
-          {/*-------------- Landing Page END --------------*/}
+          <div>Test SignUp</div>
         </IonContent>
       </IonPage>
     );
   }
 }
 
-export default Home;
+export default Register;

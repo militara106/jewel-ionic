@@ -8,7 +8,6 @@ body {
     sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: black;
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -18,13 +17,13 @@ body {
 .no-scroll {
     --overflow: hidden;
 }
+ion-content {
+  --ion-font-family: "Comfortaa", cursive;
+  --background: url("./assets/bg.jpg") no-repeat center/cover fixed;
+}
 
-.bg {
-  background: url("./assets/243.jpg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  filter: brightness(50%);
+a{
+  text-decoration: none;
 }
 
 .centered {
@@ -50,6 +49,7 @@ body {
 
 .landing {
   line-height: 2rem;
+  color: white;
   letter-spacing: 0.25rem;
 }
 
