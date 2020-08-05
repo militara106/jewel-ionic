@@ -27,43 +27,45 @@ const Home: React.FC = () => {
         <div className="bg"></div>
         {/* Logo */}
         <div className="landingLogoBG">
-          <div className="landingLogo">J</div>
+          <div className="landingLogo">"Need logo"</div>
         </div>
 
         {/* Ionic Grid Start */}
         <IonGrid className="textBox ion-text-center">
-          {/* App Title */}
-          <IonRow>
-            <IonCol>
-              <div className="landingTitle">Jeweled</div>
-            </IonCol>
-          </IonRow>
-          {/* Sub Title */}
-          <IonRow>
-            <IonCol>
-              <div className="landingSub">The Dating App</div>
-            </IonCol>
-          </IonRow>
-          {/* Description */}
-          <IonRow>
-            <IonCol>
-              <div className="landingDesc">
-                Transitioning into a more meaningful relationship
-              </div>
-            </IonCol>
-          </IonRow>
-          {/* Sign In */}
-          <IonRow>
-            <IonCol>
-              <div className="signIn borderButton customButton">Sign In</div>
-            </IonCol>
-          </IonRow>
-          {/* Sign Up */}
-          <IonRow>
-            <IonCol>
-              <div className="signUp borderlessButton customButton">Sign Up</div>
-            </IonCol>
-          </IonRow>
+            {/* App Title */}
+            <IonRow>
+              <IonCol>
+                <div className="landingTitle">Jeweled</div>
+              </IonCol>
+            </IonRow>
+            {/* Sub Title */}
+            <IonRow>
+              <IonCol>
+                <div className="landingSub">The Dating App</div>
+              </IonCol>
+            </IonRow>
+            {/* Description */}
+            <IonRow>
+              <IonCol>
+                <div className="landingDesc">
+                  Transitioning into a more meaningful relationship
+                </div>
+              </IonCol>
+            </IonRow>
+            {/* Sign In */}
+            <IonRow>
+              <IonCol>
+                <div className="signIn borderButton customButton">Sign In</div>
+              </IonCol>
+            </IonRow>
+            {/* Sign Up */}
+            <IonRow>
+              <IonCol>
+                <div className="signUp borderlessButton customButton">
+                  Sign Up
+                </div>
+              </IonCol>
+            </IonRow>
         </IonGrid>
       </IonContent>
     </IonPage>

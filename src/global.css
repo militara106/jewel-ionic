@@ -19,6 +19,14 @@ body {
     --overflow: hidden;
 }
 
+.bg {
+  background: url("./assets/243.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(50%);
+}
+
 .centered {
   height: 100vh;
   justify-content: center;
@@ -26,6 +34,7 @@ body {
   flex-direction: column;
 }
 
+/* Landing Styling */
 .landingLogoBG {
   position: absolute;
   display: flex;
@@ -35,16 +44,8 @@ body {
 }
 
 .landingLogo{
-  font-size: 10rem;
-  color: lightseagreen;
-}
-
-.bg {
-  background: url("./assets/243.jpg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  filter: brightness(50%);
+  color: red;
+  background: black;
 }
 
 .landing {
@@ -71,6 +72,8 @@ body {
   color: lightgray;
 }
 
+
+/* Button Styling */
 .customButton {
   font-family: "Comfortaa", cursive;
   outline: none;
