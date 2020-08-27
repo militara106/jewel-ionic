@@ -1,6 +1,7 @@
 import { IonPage, IonContent } from "@ionic/react";
 import React from "react";
 import Landing from "../components/Landing";
+import { NativePageTransitions, NativeTransitionOptions } from '@ionic-native/native-page-transitions/ngx';
 import "../global.css";
 
 export class Home extends React.Component<any, any> {
